@@ -22,5 +22,4 @@ public class TestPageStepDefinitions {
     public void i_click_on_logout_link() {
         testPage.logOutLink.click();
     }
-//BREAK TILL 12:50 PM CENTRAL
 }

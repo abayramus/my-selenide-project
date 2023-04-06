@@ -79,11 +79,10 @@
       <change beforePath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/DBUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/DBUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/ReadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/ReadData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/UpdateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/UpdateData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/01_navigations.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/01_navigations.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/jarRepositories.xml" beforeDir="false" />
