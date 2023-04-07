@@ -80,9 +80,11 @@
       <change beforePath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/ReadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/ReadData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/UpdateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc_review/src/test/java/tests/UpdateData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/04_assertions2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/04_assertions2.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/jarRepositories.xml" beforeDir="false" />
@@ -191,14 +193,14 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: 01_navigations" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: 05_radiobutton_checkbox" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/01_navigations.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_radiobutton_checkbox.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-selenide-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: 01_navigations" />
+      <option name="SUGGESTED_NAME" value="Feature: 05_radiobutton_checkbox" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -210,15 +212,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01_locators" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01_checkbox" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/02_locators.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_radiobutton_checkbox.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-selenide-project" />
-      <option name="NAME_FILTER" value="^TC01_locators$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_locators$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01_locators" />
+      <option name="NAME_FILTER" value="^TC01_checkbox$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_checkbox$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01_checkbox" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -230,15 +232,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: navigations test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01_selecting birth year" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/01_navigations.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/06_dropdown.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-selenide-project" />
-      <option name="NAME_FILTER" value="^navigations test$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^navigations test$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: navigations test" />
+      <option name="NAME_FILTER" value="^TC01_selecting birth year$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_selecting birth year$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01_selecting birth year" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC02_radio" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_radiobutton_checkbox.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="my-selenide-project" />
+      <option name="NAME_FILTER" value="^TC02_radio$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02_radio$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC02_radio" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -268,9 +290,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_locators" />
-        <item itemvalue="Cucumber Java.Scenario: navigations test" />
-        <item itemvalue="Cucumber Java.Feature: 01_navigations" />
+        <item itemvalue="Cucumber Java.Scenario: TC01_selecting birth year" />
+        <item itemvalue="Cucumber Java.Feature: 05_radiobutton_checkbox" />
+        <item itemvalue="Cucumber Java.Scenario: TC02_radio" />
+        <item itemvalue="Cucumber Java.Scenario: TC01_checkbox" />
       </list>
     </recent_temporary>
   </component>
