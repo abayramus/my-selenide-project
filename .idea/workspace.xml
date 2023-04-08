@@ -40,6 +40,8 @@
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/day24_parameterizing_feature_files.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/first_feature_file.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/07_alerts.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/08_frames_newwindows.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/pages/GooglePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/stepdefinitions/GoogleStepDefs.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/utilities/ConfigReader.java" afterDir="false" />
@@ -82,9 +84,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/04_assertions2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/04_assertions2.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/06_dropdown.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/06_dropdown.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/jarRepositories.xml" beforeDir="false" />
