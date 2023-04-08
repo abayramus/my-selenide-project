@@ -1,13 +1,22 @@
 package stepdefinitions;
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.WebDriverRunner;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.TestPage;
+
+import java.time.Duration;
+
+import static com.codeborne.selenide.Selenide.actions;
 import static com.codeborne.selenide.Selenide.switchTo;
 
 public class TestPageStepDefinitions {
@@ -131,4 +140,66 @@ public void i_click_on_if_not_already_selected(String string) {
         Assert.assertTrue(WebDriverRunner.url().contains(string));
     }
 
+//    ACTIONS
+    @When("I drag the source in the target")
+    public void i_drag_the_source_in_the_target() {
+//        actions()
+//                .dragAndDrop(testPage.source, testPage.target)//moving source to target
+//                .build()//
+//                .perform();//required to execute the commands
+
+//        OR
+
+//        actions()
+//                .clickAndHold(testPage.source)
+//                .moveToElement(testPage.target)
+//                .build()
+//                .perform();
+
+//        OR we can move teh source to the specific coordinates
+        actions()
+                .dragAndDropBy(testPage.source, 305,167)
+                .build()
+                .perform();
+
+    }
+
+    @Given("I scroll the page down")
+    public void i_scroll_the_page_down() {
+        actions()
+                .sendKeys(Keys.PAGE_DOWN)
+                .build()
+                .perform();
+
+//        OR TO MOVE A LITTLE BIT
+        actions()
+                .sendKeys(Keys.ARROW_DOWN)
+                .build()
+                .perform();
+    }
+
+//    EXPLICIT WAIT
+    @Given("I click on start button")
+    public void i_click_on_start_button() {
+        testPage.startButton.click();
+    }
+    @Then("verify the Hello World! text is displayed")
+    public void verify_the_hello_world_text_is_displayed() {
+//        FAILS WITH NO WAIT
+//        System.out.println("TEXT =>>> "+testPage.helloWorld.getText());// Hello World!
+//        Assert.assertEquals("Hello World!",testPage.helloWorld.getText());//FAIL
+
+//        TO FIX THE ISSUE THE BEST OPTION IS EXPLICIT WAIT BECAUSE IT IS DYNAMIC
+//        1. Handle with WebDriverWait class
+//        WebDriverWait wait = new WebDriverWait(WebDriverRunner.getWebDriver(), Duration.ofSeconds(20));
+//        wait.until(ExpectedConditions.visibilityOf(testPage.helloWorld));
+//        Assert.assertEquals("Hello World!",testPage.helloWorld.getText());//PASS
+
+
+//        2. selenide wait
+//        testPage.helloWorld.should(visible,Duration.ofSeconds(20)); //OR
+        testPage.helloWorld.should(Condition.visible,Duration.ofSeconds(20));
+        Assert.assertEquals("Hello World!",testPage.helloWorld.getText());
+        testPage.helloWorld.should(Condition.text("fake test"));//FAIL
+    }
 }

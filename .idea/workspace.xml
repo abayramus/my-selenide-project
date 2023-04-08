@@ -40,8 +40,6 @@
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/day24_parameterizing_feature_files.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/first_feature_file.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/07_alerts.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/08_frames_newwindows.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/pages/GooglePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/stepdefinitions/GoogleStepDefs.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/utilities/ConfigReader.java" afterDir="false" />
@@ -84,8 +82,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TechproStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TechproStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/06_dropdown.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/06_dropdown.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/04_assertions2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/04_assertions2.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-testNG-project/.idea/jarRepositories.xml" beforeDir="false" />
@@ -193,15 +192,15 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: 05_radiobutton_checkbox" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: element screenshot">
+    <configuration name="Feature: 11_screenshots" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_radiobutton_checkbox.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/11_screenshots.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-selenide-project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: 05_radiobutton_checkbox" />
+      <option name="SUGGESTED_NAME" value="Feature: 11_screenshots" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -213,15 +212,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01_checkbox" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01 explicit wait" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_radiobutton_checkbox.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/10_explicitwait.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-selenide-project" />
-      <option name="NAME_FILTER" value="^TC01_checkbox$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_checkbox$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01_checkbox" />
+      <option name="NAME_FILTER" value="^TC01 explicit wait$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 explicit wait$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01 explicit wait" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -253,15 +252,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC02_radio" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: element screenshot" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/05_radiobutton_checkbox.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/11_screenshots.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="my-selenide-project" />
-      <option name="NAME_FILTER" value="^TC02_radio$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02_radio$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC02_radio" />
+      <option name="NAME_FILTER" value="^element screenshot$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^element screenshot$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: element screenshot" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -290,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: element screenshot" />
+        <item itemvalue="Cucumber Java.Feature: 11_screenshots" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC01 explicit wait" />
         <item itemvalue="Cucumber Java.Scenario: TC01_selecting birth year" />
-        <item itemvalue="Cucumber Java.Feature: 05_radiobutton_checkbox" />
-        <item itemvalue="Cucumber Java.Scenario: TC02_radio" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_checkbox" />
       </list>
     </recent_temporary>
   </component>

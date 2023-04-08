@@ -5,7 +5,7 @@ Feature: assertions2
 #    LOCATE THE ACCEPT ALL
     When I search for "Tesla"
     Then verify page source contains "Tesla"
-    Then verify the result should contain "About" keyword
+    Then verify the result should contain "About!" keyword
     Then the first result in the page sections should contain "Tesla"
 #   Created test case in feature folder -DONE
 #   Create page objects in the page folder -DONE
