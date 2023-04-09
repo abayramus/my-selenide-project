@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         glue = {"stepdefinitions"},
         dryRun = false,
-        tags = "@screenshot_element"
+        tags = "@file_upload"
 
 )
 public class Runner {
